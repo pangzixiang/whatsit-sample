@@ -29,8 +29,8 @@ public class UserTableDao {
 
     private final ApplicationContext applicationContext;
 
-    public UserTableDao(ApplicationContext applicationContext) {
-        this.applicationContext = applicationContext;
+    public UserTableDao() {
+        this.applicationContext = ApplicationContext.getApplicationContext();
     }
 
 

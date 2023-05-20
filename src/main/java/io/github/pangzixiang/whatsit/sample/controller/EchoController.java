@@ -24,9 +24,9 @@ public class EchoController extends BaseController {
 
     private final UserTableDao userTableDao;
 
-    public EchoController(ApplicationContext applicationContext, Router router) {
-        super(applicationContext, router);
-        userTableDao = new UserTableDao(applicationContext);
+    public EchoController(Router router) {
+        super(router);
+        userTableDao = new UserTableDao();
     }
 
     @RestEndpoint(path = "/echo", method = HttpRequestMethod.GET)

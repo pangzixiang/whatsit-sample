@@ -17,7 +17,7 @@
         <main.class>io.github.pangzixiang.whatsit.sample.WhatsitSampleApplication</main.class>
 
         <lombok.version>1.18.24</lombok.version>
-        <whatsit-core.version>2.0.7</whatsit-core.version>
+        <whatsit-core.version>2.0.17</whatsit-core.version>
         <whatsit-swagger.version>1.0.2</whatsit-swagger.version>
     </properties>
 
